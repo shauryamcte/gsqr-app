@@ -1,4 +1,6 @@
 import streamlit as st
+st.set_page_config(layout="wide")
+
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.cluster import KMeans
@@ -15,7 +17,7 @@ with open("Vendor_Response_Matrix.csv", "rb") as file:
     )
 
 
-st.set_page_config(layout="wide")
+
 st.title("🔍 GSQR Vendor Clustering & Enhanced Excel View")
 
 uploaded_file = st.sidebar.file_uploader("Upload Vendor Response Matrix (.csv)", type=["csv"])
