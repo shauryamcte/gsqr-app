@@ -1,0 +1,43 @@
+Parameter,Vendor A,Vendor B,Vendor C,Vendor D,Vendor E,Vendor F,Vendor G,Vendor H,Vendor I,Vendor J
+Communication Objectives,Secure Comms,"Voice, Data","Voice, Data",Voice,"Voice, Data, Video","Voice, Data",Voice,"Voice, Data","Voice, Data, Video","Voice, Data, Video"
+Type of Communication,Strategic,Hybrid,Tactical,Tactical,Tactical,Hybrid,Hybrid,Tactical,Satellite,Strategic
+Mode of Communication,Wireless,Wireless,Wireless,Wired,Hybrid,Hybrid,Hybrid,Wired,Hybrid,Hybrid
+Frequency Bands,UHF,UHF,UHF/L-band,VHF/UHF,L-band,VHF,VHF/UHF,UHF/L-band,VHF,UHF/L-band
+Frequency Bandwidth,Partial,No,Yes,Partial,Yes,No,Partial,Yes,No,Yes
+Operating Modes,Voice/Data/Video,Encrypted,Voice/Data/Video,Encrypted,Encrypted,Voice/Data,Voice/Data,Encrypted,Encrypted,Voice/Data/Video
+Interoperability,Partial,Partial,Yes,No,No,No,No,Yes,No,No
+Data Transfer Rates,1 Mbps,1 Mbps,512 Kbps,512 Kbps,5 Mbps,5 Mbps,2 Mbps,2 Mbps,2 Mbps,5 Mbps
+Encryption,AES-128,AES-128,ECC,ECC,AES-128,None,AES-128,AES-128,AES-128,AES-128
+Secure Key Management,Manual,Manual,Auto,Auto,Manual,Both,Both,Manual,Auto,Auto
+Range,2 km,10 km,2 km,15 km,10 km,5 km,10 km,10 km,5 km,10 km
+Power Source,Li-ion Battery,Smart Battery,Li-ion Battery,Li-ion Battery,Smart Battery,Li-ion Battery,Smart Battery,Solar,Li-ion Battery,Li-ion Battery
+Power Output,15W,5W,5W,10W,10W,15W,20W,15W,5W,15W
+Battery Charging Arrangement,Partial,Yes,Yes,Yes,Partial,Yes,Yes,Partial,Yes,Yes
+Battery Life,10 hrs,10 hrs,8 hrs,6 hrs,10 hrs,10 hrs,8 hrs,6 hrs,8 hrs,10 hrs
+Wave Forms (SDR),Supported,Supported,Supported,Supported,Not Supported,Supported,Supported,Not Supported,Supported,Supported
+Waveform Loading & Development Tool (SDR),Not Available,Proprietary,Proprietary,Available,Available,Not Available,Not Available,Proprietary,Proprietary,Proprietary
+Spectrum Management,Manual,Adaptive,Manual,Manual,Automatic,Manual,Manual,Manual,Adaptive,Automatic
+Modulation,QAM,BPSK,BPSK,BPSK,QPSK,OFDM,OFDM,QAM,BPSK,QAM
+EW Facilities,ECM/ECCM,None,None,ECM/ECCM,ECM/ECCM,ECM/ECCM,ECCM,ECCM,ECM/ECCM,None
+MANET Capability,Yes,No,Yes,Yes,No,Yes,Yes,No,No,No
+Antenna Options,Directional,Omni,Whip,Panel,Panel,Panel,Omni,Panel,Whip,Panel
+Form Factor and Portability,Handheld,Vehicle Mount,Backpack,Vehicle Mount,Vehicle Mount,Backpack,Vehicle Mount,Manpack,Backpack,Handheld
+AI Features,No,No,No,No,Yes,Yes,Yes,No,Yes,Yes
+DSM Map Compatibility,No,Yes,Yes,No,No,Yes,Yes,No,No,No
+User-friendly Display,Touchscreen,Touchscreen,Basic,Advanced GUI,Basic,Touchscreen,Basic,Advanced GUI,Touchscreen,Basic
+Networking and Connectivity,Ethernet,Ethernet,Wi-Fi,All,All,All,Ethernet,Wi-Fi,Wi-Fi,All
+Booting Time,10s,20s,5s,10s,30s,10s,20s,20s,30s,20s
+Availability of Pre-sets,25,50,10,50,50,5,50,50,5,25
+Data Terminal Equipment,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
+Voice and Audio Quality,Excellent,Excellent,Excellent,Excellent,Excellent,Good,Excellent,Excellent,Excellent,Average
+Software Upgradability,No,Yes,Yes,No,No,No,Yes,No,No,Yes
+System Integration,No,Yes,Partial,Partial,Yes,Yes,No,Partial,No,No
+BER,10⁻⁴,10⁻⁴,10⁻⁴,10⁻⁶,10⁻⁴,10⁻⁶,10⁻⁶,10⁻⁵,10⁻⁴,10⁻⁶
+Software Communication Architecture,Modular,Modular,Modular,Modular,Proprietary,Modular,Proprietary,Proprietary,Modular,Proprietary
+Spectrum Sensing,No,Yes,No,No,No,Yes,No,Yes,No,No
+User Interface Options,All,Keypad,All,Touchscreen,Buttons,All,Buttons,Touchscreen,Keypad,All
+Tx/Rx Characteristics,Half-duplex,Half-duplex,Dual-mode,Half-duplex,Dual-mode,Dual-mode,Full-duplex,Full-duplex,Dual-mode,Full-duplex
+Mission Specific Features,Yes,Yes,No,No,No,No,No,No,No,No
+Safety Features,IP65,MIL-STD-810G,MIL-STD only,MIL-STD-810G,MIL-STD only,MIL-STD-810G,MIL-STD only,IP65,MIL-STD only,IP65
+Transportability,Backpack,Backpack,Rack Mount,Tactical Pouch,Backpack,Pelican Case,Rack Mount,Pelican Case,Pelican Case,Pelican Case
+Accessories,Headset Only,Headset Only,Full Kit,Speaker,Full Kit,Speaker,Speaker,Headset Only,Headset Only,Headset Only
