@@ -17,7 +17,11 @@ def beautify_df(df):
         {'selector': 'tr:nth-child(even)', 'props': [('background-color', '#f9f9f9')]},
         {'selector': 'tr:hover', 'props': [('background-color', '#d6eaff')]}
     ]
-    return df.style        .set_table_styles(styles)        .set_properties(**{'text-align': 'left'})        .highlight_null(null_color='lightgrey')        .background_gradient(axis=None, cmap='Blues')        .format(na_rep='–')
+    return df.style\
+        .set_table_styles(styles)\
+        .set_properties(**{'text-align': 'left'})\
+        .background_gradient(axis=None, cmap='Blues')\
+        .format(na_rep='–')
 
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
