@@ -5,6 +5,16 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 import plotly.express as px
 
+with open("Vendor_Response_Matrix.csv", "rb") as file:
+    st.sidebar.markdown("### 📥 Download Sample Vendor Matrix")
+    st.sidebar.download_button(
+        label="Download Sample CSV",
+        data=file,
+        file_name="Vendor_Response_Matrix.csv",
+        mime="text/csv"
+    )
+
+
 st.set_page_config(layout="wide")
 st.title("🔍 GSQR Vendor Clustering & Enhanced Excel View")
 
