@@ -114,7 +114,8 @@ if uploaded_file:
             st.dataframe(beautify_df(filtered_df), use_container_width=True)
         else:
             st.markdown("### 🧾 All Vendors (No Filters Applied):")
-            st.dataframe(beautify_df(df_t), use_container_width=True)
+            st.write(beautify_df(df_t))
+
 
 else:
     st.info("Please upload a CSV file to begin.")
