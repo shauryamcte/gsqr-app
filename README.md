@@ -1,5 +1,8 @@
 # 📄 README.md — GSQR Vendor Clustering & Filter Explorer
 
+https://gsqr-app-6dk9e2jeijbthcm4w73yxw.streamlit.app/
+
+
 ## 🚀 Overview
 This Streamlit application enables data-driven vendor evaluation for GSQR (General Staff Qualitative Requirements) formulation. It allows users to upload a vendor matrix, automatically cluster vendors based on their capabilities, visualize them in 2D space using PCA, and interactively filter and analyze vendor data.
 
